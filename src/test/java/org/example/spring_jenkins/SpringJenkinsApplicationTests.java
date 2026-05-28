@@ -14,7 +14,7 @@ class SpringJenkinsApplicationTests {
 
     public static Logger logger = org.slf4j.LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
     @Test
-    void contextLoads() {
+    public contextLoads() {
         logger.info("Test case Executing");
         logger.info("Test case Executing 2nd log statement.....");
         logger.info("Test case Executing 3nd log statement.....");
