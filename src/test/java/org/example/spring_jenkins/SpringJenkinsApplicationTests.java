@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 @SpringBootTest
 class SpringJenkinsApplicationTests {
 
-    public static Logger logger = org.slf4j.LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
+    
     @Test
     public void contextLoads() {
         logger.info("Test case Executing");
