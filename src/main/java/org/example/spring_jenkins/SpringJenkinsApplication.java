@@ -20,6 +20,7 @@ public class SpringJenkinsApplication {
         logger.info("Application is starting");
         SpringApplication.run(SpringJenkinsApplication.class, args);
         System.out.println("Application is running");
+        System.out.println("Application is running Again");
     }
 
 }
